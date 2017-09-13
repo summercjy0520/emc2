@@ -32,7 +32,8 @@ while Kcurr>kuser
     ind(d)=[];
     pdist=zeros(size(index,1)-1,1);
     for i=1:zz-1
-        pdist(i)=computepd(SS{d},SSt{i},p);
+         pdist(i)=1/2*(computepd(SS{d},SSt{i},p)+computepd(SS{i},SSt{d},p));
+%        pdist(i)=computepd(SS{d},SSt{i},p);
     end 
     [~,aa]=min(pdist);
     xx=find(index==ind(aa));
