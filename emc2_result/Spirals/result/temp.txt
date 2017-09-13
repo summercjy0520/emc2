@@ -1,0 +1,11 @@
+figure;
+hold on;
+for i=1:size(le,1)
+if a(i)==1
+plot(S(i,1),S(i,2),'bo','MarkerSize',5)
+elseif a(i)==2
+plot(S(i,1),S(i,2),'ro','MarkerSize',5)
+else
+plot(S(i,1),S(i,2),'go','MarkerSize',5)
+end
+end
