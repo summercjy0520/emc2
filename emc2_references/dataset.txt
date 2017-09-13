@@ -1,0 +1,5 @@
+1. UCI dataset: http://archive.ics.uci.edu/ml/datasets.html
+
+
+
+2.Clustering benchmark datasets: https://cs.joensuu.fi/sipu/datasets/ 
